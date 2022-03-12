@@ -9,7 +9,7 @@ begin
   readln(b);
   if (a > b) then
     for i := a downto b do
-      Write(i, ' ')
+          Write(i, ' ')
   else
     for i := a to b do
       Write(i, ' ');
